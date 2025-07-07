@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games | Innovación en Entretenimiento Digital</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Barra de navegación */
+        nav {
+            background-color: #2c2c2c;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            float: left;
+        }
+        
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        nav li a:hover {
+            background-color: #575757;
+        }
+        
+        /* Encabezado */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('img/fondo-header.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        /* Secciones */
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-dark {
+            background-color: #f5f5f5;
+        }
+        
+        /* Imágenes */
+        .img-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Pie de página */
+        footer {
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        h1, h2, h3 {
+            color: #2c2c2c;
+        }
+        
+        header h1 {
+            color: white;
+            font-size: 2.5em;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #0078f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#logros">Logros</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Encabezado -->
+    <header id="inicio">
+        <h1>Epic Games</h1>
+        <p>Líderes en innovación para el entretenimiento digital</p>
+        <a href="#mision" class="btn">Conoce más</a>
+    </header>
+    
+    <!-- Sección Misión -->
+    <section id="mision">
+        <h2>Nuestra Misión</h2>
+        <p>En Epic Games, nuestra misión es construir experiencias de entretenimiento digital innovadoras que conecten a las personas a través de juegos, tecnología y creatividad. Creemos en un futuro donde los límites entre lo real y lo virtual se desdibujen, creando oportunidades ilimitadas para jugadores, desarrolladores y creadores de contenido.</p>
+        <p>Nos esforzamos por empoderar a los creadores con herramientas de vanguardia como Unreal Engine, mientras construimos comunidades vibrantes alrededor de nuestros productos como Fortnite, Rocket League y la Epic Games Store.</p>
+    </section>
+    
+    <!-- Sección Objetivos -->
+    <section id="objetivos" class="section-dark">
+        <h2>Nuestros Objetivos</h2>
+        <h3>Innovación Tecnológica</h3>
+        <p>Desarrollar y perfeccionar continuamente el motor Unreal Engine para establecer el estándar de la industria en gráficos 3D en tiempo real y experiencias interactivas.</p>
+        
+        <h3>Ecosistema Abierto</h3>
+        <p>Crear un ecosistema más justo para desarrolladores, ofreciendo mejores condiciones económicas a través de la Epic Games Store y promoviendo estándares abiertos.</p>
+        
+        <h3>Experiencias Sociales</h3>
+        <p>Reinventar la forma en que las personas se conectan y socializan a través de experiencias compartidas en mundos virtuales.</p>
+        
+        <h3>Sostenibilidad</h3>
+        <p>Reducir nuestra huella de carbono y promover prácticas sostenibles en el desarrollo de software y hardware.</p>
+    </section>
+    
+    <!-- Sección Logros -->
+    <section id="logros">
+        <h2>Logros y Metas Alcanzadas</h2>
+        <ul>
+            <li><strong>2023:</strong> Lanzamiento de Unreal Engine 5.2 con revolucionarias herramientas de IA</li>
+            <li><strong>2022:</strong> Fortnite alcanza los 500 millones de jugadores registrados</li>
+            <li><strong>2021:</strong> Epic Games Store supera los 200 millones de usuarios</li>
+            <li><strong>2020:</strong> Demostración "Lumen in the Land of Nanite" establece nuevo estándar para gráficos en tiempo real</li>
+            <li><strong>2019:</strong> Adquisición de Psyonix (creadores de Rocket League)</li>
+            <li><strong>2018:</strong> Fortnite se convierte en fenómeno cultural mundial</li>
+        </ul>
+        
+        <h3>Metas Futuras</h3>
+        <ul>
+            <li>Lanzar la versión 6.0 de Unreal Engine para 2025</li>
+            <li>Expandir el metaverso de Fortnite con más experiencias sociales</li>
+            <li>Alcanzar los 1000 títulos exclusivos en Epic Games Store</li>
+            <li>Reducir el consumo energético de nuestros servidores en un 40% para 2026</li>
+        </ul>
+    </section>
+    
+    <!-- Sección Equipo -->
+    <section id="equipo" class="section-dark">
+        <h2>Nuestro Equipo</h2>
+        <div class="img-container">
+            <img src="img/equipo.jpg" alt="Equipo de Epic Games">
+        </div>
+        <p>Epic Games fue fundada en 1991 por Tim Sweeney y hoy emplea a más de 4,000 personas en todo el mundo. Nuestro equipo incluye:</p>
+        
+        <h3>Liderazgo Ejecutivo</h3>
+        <p><strong>Tim Sweeney:</strong> Fundador y CEO</p>
+        <p><strong>Kim Libreri:</strong> CTO</p>
+        <p><strong>Donald Mustard:</strong> Director Creativo</p>
+        
+        <h3>Departamentos Clave</h3>
+        <p><strong>Desarrollo de Unreal Engine:</strong> 800+ ingenieros</p>
+        <p><strong>Estudios de Juegos:</strong> 1500+ desarrolladores</p>
+        <p><strong>Epic Games Store:</strong> 300+ especialistas</p>
+        <p><strong>Investigación y Desarrollo:</strong> 200+ científicos</p>
+    </section>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos siempre interesados en escuchar a nuestra comunidad y socios potenciales.</p>
+        
+        <h3>Información de Contacto</h3>
+        <p><strong>Dirección:</strong> Epic Games, Inc., Box 254, 2474 Walnut Street, Cary, NC 27518, USA</p>
+        <p><strong>Email:</strong> info@epicgames.com</p>
+        <p><strong>Soporte:</strong> support@epicgames.com</p>
+        <p><strong>Teléfono:</strong> +1 (919) 854-0070</p>
+        
+        <div class="img-container">
+            <img src="img/oficina.jpg" alt="Oficinas de Epic Games">
+        </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Epic Games, Inc. Todos los derechos reservados.</p>
+        <p>Unreal, Unreal Engine, el logo de Unreal Engine, Fortnite, el logo de Fortnite, Epic, Epic Games y el logo de Epic Games son marcas registradas o marcas comerciales de Epic Games, Inc. en los Estados Unidos de América y otros lugares.</p>
+    </footer>
+</body>
+</html>
